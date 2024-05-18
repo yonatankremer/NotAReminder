@@ -25,7 +25,7 @@ struct NotAReminderApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContainer()
         }
         .modelContainer(sharedModelContainer)
     }
